@@ -1,0 +1,9 @@
+
+// id , the well-known:     \a.a        ===  func id(foo) {return foo}
+self := _
+
+// flip:                    \fab.fba    === func flip(f) {return func(a,b) {return f(b,a)}}
+f ~ a b := b f a // usual would be a f b
+
+// const, the well-known:   \ab.a       === func const(x) { return func(y) {return x}}
+tho := fst
