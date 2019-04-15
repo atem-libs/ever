@@ -7,7 +7,6 @@ ord     := Lt|Eq|Gt     // === x ord := x | Lt | Eq | Gt ? x
 True    not := False
 False   not := True
 
-
 a || b :=
     a | True ? True | False ? b bool
 
