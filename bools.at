@@ -4,7 +4,9 @@ false   := False
 bool    := True | False // === x bool := x | True | False ? x
 ord     := Lt|Eq|Gt     // === x ord := x | Lt | Eq | Gt ? x
 
+
 True    not := False
+
 False   not := True
 
 a || b :=
