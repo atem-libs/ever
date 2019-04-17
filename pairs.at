@@ -12,8 +12,7 @@ snd := fst~
 // thus we can export `& := _` or `, := _` or `: := _` and thats it
 
 // thought experiment for later:
-
-w 0 := a        // id == 0
-x 1 b := b 0    // fst == 1
-y 2 b := b 1    // snd == 2
-z 3 b := b 2    // etc?
+// w 0 := a        // id == 0
+// x 1 b := b 0    // fst == 1
+// y 2 b := b 1    // snd == 2
+// z 3 b := b 2    // etc?
