@@ -1,5 +1,5 @@
 
-foo fst _ := foo
+foo fst _ := foos
 
 snd := fst~
 
@@ -10,6 +10,7 @@ snd := fst~
 // (3 _ 8) snd === 3 snd 8 === 8
 
 // thus we can export `& := _` or `, := _` or `: := _` and thats it
+
 
 // thought experiment for later:
 // w 0 := a        // id == 0

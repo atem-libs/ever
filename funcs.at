@@ -11,4 +11,4 @@ f2 <. f1 := _ f1 f2
 // compose ltr
 f1 .> f2 := _ f1 f2
 
-x _foo y := y x
+x := y

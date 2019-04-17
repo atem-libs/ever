@@ -19,6 +19,7 @@ b if True yay False nay :=
     b | True ? yay | False ? nay
 
 
+
 // _true := fst
 // _false := snd
 // tf _not := _false tf _true
