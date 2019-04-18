@@ -6,9 +6,9 @@ callee : arg := arg callee
 arg . callee := arg callee
 
 // compose rtl
-f2 <. f1 := _ f1 f2
+fn2 <· fn1 := _ fn1 fn2
 
 // compose ltr
-f1 .> f2 := _ f1 f2
+fn1 ·> fn2 := _ fn1 fn2
 
 x := y
