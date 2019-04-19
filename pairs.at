@@ -1,5 +1,5 @@
 
-foo fst _ := foos
+foo fst _ := foo
 
 snd := fst~
 

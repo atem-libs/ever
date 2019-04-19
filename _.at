@@ -5,16 +5,8 @@ self := _
 // flip:                    \fab.fba    === func flip(f) {return func(a,b) {return f(b,a)}}
 f ~ a b := b f a // usual would be a f b
 
-// const, the well-known:   \ab.a       === func const(x) { return func(y) {return x}}
-// const, the well-known:   \ab.a       === func const(x) { return func(y) {return x}}
-// const, the well-known:   \ab.a       === func const(x) { return func(y) {return x}}
-// const, the well-known:   \ab.a       === func const(x) { return func(y) {return x}}
-// const, the well-known:   \ab.a       === func const(x) { return func(y) {return x}}
-ding := dang
-1.24 foo _moo <|> 'x' Tru "or" := bar
-
 // 1 alone comment
 // 2 alone comment
 
 // const, the well-known:   \ab.a       === func const(x) { return func(y) {return x}}
-tho := fsts
+tho := fst

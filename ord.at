@@ -1,0 +1,1 @@
+ord     := Lt | Eq | Gt     // === x ord := x | Lt | Eq | Gt ? x

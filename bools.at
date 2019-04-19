@@ -1,13 +1,11 @@
 
-true    := True
-false   := False
 bool    := True | False // === x bool := x | True | False ? x
-ord     := Lt|Eq|Gt     // === x ord := x | Lt | Eq | Gt ? x
+b true    := b bool
+b false   := b not
 
 
 True    not := False
-
-False   not := True
+False   not:foo := True
 
 a || b :=
     a | True ? True | False ? b bool
