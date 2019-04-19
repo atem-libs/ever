@@ -5,7 +5,7 @@ b false   := b not
 
 
 True    not := False
-False   not:foo := True
+False   not := True
 
 a || b :=
     a | True ? True | False ? b bool
