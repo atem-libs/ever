@@ -1,16 +1,16 @@
 
 bool    := True | False // === x bool := x | True | False ? x
-b true    := b bool
-b false   := b not
+b true 12.34   := b bool
+b false *  := b not
 
 
-True    not := False
-False   not := True
+True    not 123 := False
+False   not "foo" := True
 
-a || b :=
+a || 'b' :=
     a | True ? True | False ? b bool
 
-a && b :=
+a && b:(bop) c :=
     a | False ? False | True ? b bool
 
 b if True yay False nay :=
