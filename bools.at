@@ -7,7 +7,7 @@ b false *  := b not
 True    not x:10-(*foo)/20 y := False
 False   not "foo" := yo (True: y~) x
 
-bla foo := True:x not  x-  *y+
+bla _ foo := True:x not  x-  *y+
 
 a || 'b' :=
     a | True ? True | False ? b bool
