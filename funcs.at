@@ -1,9 +1,9 @@
 
-// force VSO call style
-callee : arg := arg callee
-
 // force SVO call style
-arg . callee := arg callee
+arg . fn := arg fn
+
+// force VSO call style
+fn : arg := arg fn
 
 // compose rtl
 fn2 <· fn1 := _ fn1 fn2
