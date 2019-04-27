@@ -1,9 +1,15 @@
-foo def1:842 := baz
+foo yo def1:842 :=
+    yo dat
 
-foo def2:Bar := baz
 
-foo def3:"bar" := ¯ever¯for
+foo yo def2:Bar :=
+    baz
 
-foo def4:'b' ar := baz
+foo yo def3:"bar" :=
+    ¯ever¯for
 
-foo def5:(True|False) := baz
+foo yo 1+4 def4:'b' ar :=
+    baz
+
+foo yo def5:(True|False) :=
+    baz
