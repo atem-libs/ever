@@ -1,0 +1,9 @@
+foo def1:842 := baz
+
+foo def2:Bar := baz
+
+foo def3:"bar" := baz
+
+foo def4:'b' ar := baz
+
+foo def5:(True|False) := baz
