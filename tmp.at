@@ -2,7 +2,7 @@ foo def1:842 := baz
 
 foo def2:Bar := baz
 
-foo def3:"bar" := baz
+foo def3:"bar" := ¯ever¯for
 
 foo def4:'b' ar := baz
 
