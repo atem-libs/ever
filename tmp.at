@@ -1,6 +1,5 @@
-foo yo def1:842 :=
+foo Yo:Ya def1:842 :=
     yo dat
-
 
 foo yo def2:Bar :=
     baz
@@ -8,8 +7,8 @@ foo yo def2:Bar :=
 foo yo def3:"bar" :=
     ¯ever¯for
 
-foo yo 1+4 def4:'b' ar :=
-    baz
+foo yo ya def5:"bla" :=
+    x
 
-foo yo def5:(True|False) :=
+fo:o yo moo ok def5:bla :=
     baz
