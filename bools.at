@@ -6,8 +6,8 @@ True    not := False
 False   not := True
 
 /*   another test comment  */
-a || 'b' :=
-    a | True ? True | False ? b bool
+a || b:bool :=
+    a | True ? True | False ? b
 
 //    test comment
 a && b :=
