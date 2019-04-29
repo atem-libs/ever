@@ -1,7 +1,7 @@
 
 foo fst _ := foo
 
-snd := fst~
+snd := fst~ _+3
 
 
 
