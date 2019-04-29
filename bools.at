@@ -5,10 +5,11 @@ bool    := True | False // === x bool := x | True | False ? x
 True    not := False
 False   not := True
 
-
+/*   another test comment  */
 a || 'b' :=
     a | True ? True | False ? b bool
 
+//    test comment
 a && b :=
     a | False ? False | True ? b bool
 
