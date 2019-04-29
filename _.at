@@ -3,7 +3,7 @@
 self := _
 
 // flip:                    \fab.fba    === func flip(f) {return func(a,b) {return f(b,a)}}
-f ~ a b := b f a // usual would be a f b
+f ~ a b := b /*foo*/ f a // usual would be a f b
 
 // 1 alone comment
 // 2 alone comment
