@@ -17,10 +17,12 @@ b if True yay False nay :=
     b | True ? yay | False ? nay
 
 
-
-// _true := fst
-// _false := snd
-// tf _not := _false tf _true
-// tf1 _and tf2 := _false tf2.tf1
-// tf1 _or tf2 := b _true.a
-// tf1 _xor tf2 := tf2 <| _true false.tf2 tf1
+/*
+    true := fst
+    false := snd
+    b not := b: false true
+    a or b := a: true b
+    a or b := a: a b
+    a and b := a: b false
+    a and b := a: b a
+*/

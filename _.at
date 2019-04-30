@@ -4,8 +4,9 @@ self := _
 
 // flip:                    \fab.fba    === func flip(f) {return func(a,b) {return f(b,a)}}
 f ~ a b :=
-    a tmp
-    tmp := b f
+    x tmp2, x := a, tmp2 := tmp1
+    tmp1 := bb1 ff2, bb1 := b, ff1 := f
+    ff2 := f
 
 // 1 alone comment
 // 2 alone comment
