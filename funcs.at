@@ -6,7 +6,7 @@ arg . fn := arg fn
 fn : arg := arg fn
 
 // compose rtl
-fn2 ‹ fn1 := _*3 +fn1 -fn2
+fn2 ‹ fn1 := _ fn1 fn2
 
 // compose ltr
 fn1 › fn2 := _ fn1 fn2
