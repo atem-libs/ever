@@ -3,7 +3,7 @@ foo fst _ := foo
 
 snd := fst~
 
-some test := _ - some
+some test := _-some // foo+_
 
 
 // PAIRS via (x _ y) lambas, the notation meaning \xyf.fxy
