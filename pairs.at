@@ -1,13 +1,14 @@
 
-foo fst _ := foo*_
+foo fst _ := foo
 
 snd := fst~
 
+some test := _ - some
 
 
 // PAIRS via (x _ y) lambas, the notation meaning \xyf.fxy
-// (3 _ 8) fst === 3 fst 8 === 3
-// (3 _ 8) snd === 3 snd 8 === 8
+// (3 _ 8) fst      ===     3 fst 8     === 3
+// (3 _ 8) snd      ===     3 snd 8     === 8
 
 // thus we can export `& := _` or `, := _` or `: := _` and thats it
 
