@@ -1,5 +1,5 @@
 
-foo fst 123 := foo
+foo fst 123 123 := foo
 
 snd := fst~
 
