@@ -1,6 +1,6 @@
 
 // id , the well-known:     \a.a        ===  func id(foo) {return foo}
-self := _
+foo self := foo
 
 // flip:                    \fab.fba    === func flip(f) {return func(a,b) {return f(b,a)}}
 f ~ a b := a b.f

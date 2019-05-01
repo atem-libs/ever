@@ -1,9 +1,9 @@
 
 foo fst _ := foo
 
-snd := fst~
+_ snd foo := foo
 
-some test := _-some // foo+_
+some test := _-one // two+_
 
 
 // PAIRS via (x _ y) lambas, the notation meaning \xyf.fxy
