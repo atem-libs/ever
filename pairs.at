@@ -3,8 +3,6 @@ foo fst _ := foo
 
 _ snd foo := foo
 
-some test := _-one // two+_
-
 
 // PAIRS via (x _ y) lambas, the notation meaning \xyf.fxy
 // (3 _ 8) fst      ===     3 fst 8     === 3
