@@ -1,7 +1,5 @@
 
-foo fst _:bool := foo
-
-moo := 1 | 2
+foo fst _ := foo*_
 
 snd := fst~
 
