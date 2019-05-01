@@ -1,5 +1,7 @@
 
-foo fst 123 123 := foo
+foo fst _:bool := foo
+
+moo := 1 | 2
 
 snd := fst~
 
