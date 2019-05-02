@@ -1,2 +1,7 @@
 
 some test := _+some
+
+moo foo :=
+    test
+    test := moo
+    foo := test
