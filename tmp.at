@@ -5,4 +5,4 @@ moo sup :=
     123 test
 
 
-x:self sup := sup
+x:(T|F) sup := sup
