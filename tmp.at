@@ -1,7 +1,8 @@
 
 some test := _+some
 
-moo foo :=
-    (test, two := yay, baz := nay)
-    1 one := bar, two := wot, baz := test
-    2 two := test, one := wot, baz := bar
+moo sup :=
+    (test, baz := nay)
+    one := other
+    one := bar, yo baz yo := test
+    two := test, baz := bar
