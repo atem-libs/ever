@@ -1,8 +1,5 @@
 
-some test := _+some
+some _test := _&&some
 
 moo sup :=
-    (test, baz := nay)
-    one := other
-    one := bar, yo baz yo := test
-    two := test, baz := bar
+    123 _boah test
