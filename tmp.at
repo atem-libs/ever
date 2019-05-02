@@ -4,4 +4,5 @@ some _test := _&&some
 moo sup :=
     123 test
 
-foo sup:10 := sup
+
+x:self sup := sup
