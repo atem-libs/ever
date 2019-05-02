@@ -2,6 +2,6 @@
 some test := _+some
 
 moo foo :=
-    test
-    test moo := moo
-    fst foo := test
+    (test, two := yay, baz := nay)
+    1 one := bar, two := wot, baz := test
+    2 two := test, one := wot, baz := bar
