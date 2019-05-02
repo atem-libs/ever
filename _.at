@@ -3,7 +3,7 @@
 foo self := foo
 
 // flip:                    \fab.fba    === func flip(f) {return func(a,b) {return f(b,a)}}
-f ~ a b := a b.f
+f ~ a b := a (b f)
 
 // 1 alone comment
 // 2 alone comment
