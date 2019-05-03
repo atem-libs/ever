@@ -10,4 +10,4 @@ a yoo b c d :=
     ab + cd * cd , ab := a b
     cd := c*d
 
-case := | yoo == sup ? test | yoo == test ? sup
+cL case := | yoo == sup ? test | yoo == test ? sup
