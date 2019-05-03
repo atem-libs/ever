@@ -2,9 +2,10 @@
 some _test := _&&some
 
 moo sup :=
-    123 test
+    lam
+    bla lam := bla + moo
 
 
-a yoo b (1/2) d :=
+a yoo b c d :=
     ab + cd * cd , ab := a b
     cd := c*d
