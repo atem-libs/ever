@@ -5,6 +5,6 @@ moo sup :=
     123 test
 
 
-a yoo b c d :=
-    ab + cd , ab := a~b
-    cd := d c*_
+a yoo b (1/2) d :=
+    ab + cd * cd , ab := a b
+    cd := c*d
