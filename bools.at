@@ -15,8 +15,6 @@ a && b :=
 
 b if Then yay Else nay :=
     b | True ? yay | False ? nay
-    foo := bar, bar := baz
-    baz := foo
 
 
 /*
