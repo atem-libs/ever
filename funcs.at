@@ -9,4 +9,4 @@ fn : arg := arg fn
 fn2 ‹ fn1 := _ fn1 fn2
 
 // compose ltr
-fn1 › fn2 := _ fn1 fn2
+fn1 › fn2 := (_ fn1) fn2

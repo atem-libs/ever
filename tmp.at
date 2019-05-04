@@ -12,4 +12,6 @@ a yoo b c d :=
 
 case := yoo | sup ? test | test ? sup
 
-x mo := x | Yo | Ya ? Oy
+x mo := x | Yo | Ya | Oy | Ay ? x
+
+csr := (1 + 2) * (1 + 2)
