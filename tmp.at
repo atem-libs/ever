@@ -7,8 +7,9 @@ moo sup :=
 
 
 a yoo b c d :=
-    yo
-    yo := a+b, ab := c+d
+    yo * ab
+    yo := a+b
+    ab := c+d
 
 case := yoo | sup ? test | test ? sup
 
