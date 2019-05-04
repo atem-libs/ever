@@ -2,8 +2,8 @@
 bool    := True | False
 
 
-True    nut := False
-False   nut := True
+True    not := False
+False   not := True
 
 /*   another test comment  */
 a || b :=
