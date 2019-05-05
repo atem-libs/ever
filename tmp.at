@@ -8,12 +8,13 @@ moo sup :=
 
 a yoo b c d :=
     yo * ab
-    yo := a+b
-    ab := c+d
+    yo := a+b, ab := c+d // error
 
-case := yoo | sup ? test | test ? sup
+case :=
+    yoo ? sup   -> test
+        | test  -> sup
 
-x mo := x | Yo | Ya | Oy | Ay ? x
+x mo := x ? Yo | Ya | Oy | Ay -> x
 
 cse := (1 + 2) * (1 + 2)
 
