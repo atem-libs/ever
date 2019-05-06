@@ -1,4 +1,6 @@
 
+
+
 some _test := _&&some
 
 moo sup :=
@@ -7,19 +9,20 @@ moo sup :=
 
 
 a yoo b c d :=
-    yo * ab
+    yo * ab, x := oy
     yo := a+b, ab := c+d // error
 
 case :=
-    yoo ? sup   -> test
-        | test  -> sup
+    yoo ? sup               -> test
+        | yoya | mo | cse   -> rev
+        | test              -> sup
 
-x mo := x ? Yo | Ya | Oy | Ay -> x
+x mo := x ? Yo | Ya | Oy |  -> x
 
 cse := (1 + 2) * (1 + 2)
 
 Yo yoya := Ya
 
-yoYa := Yo | Ya
+yoYa := Yo , Ya, 123, "ok", rev, 'x', 1.23
 
 123 rev := 1.23
