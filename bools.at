@@ -1,5 +1,5 @@
 
-bool    := True | False
+bool    := True, False
 
 
 True    not := False
