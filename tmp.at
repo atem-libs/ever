@@ -26,3 +26,8 @@ Yo yoya := Ya
 yoYa := Yo , Ya
 
 123 rev := 1.23
+
+a case2 b :=
+    a   ? "a"   -> b
+        | 'a'   -> b    ? "b"   -> a
+                        | 'b'   -> 123
