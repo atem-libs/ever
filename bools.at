@@ -20,7 +20,7 @@ a && b :=
 when ⊤ then :=
     when    ? True  |= then ever
             | False |= it
-fn ⊥ else   :=
+fn ⊥ else :=
     else fn
 // naked-aliases for ease of typing (fmt could replace with pretty symbol)
 |- := ⊤
