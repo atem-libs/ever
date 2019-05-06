@@ -7,14 +7,24 @@ False   not := True
 
 /*   another test comment  */
 a || b :=
-    a ? True -> True | False -> b bool
+    a   ? True  |= a
+        | False |= b bool
 
 //    test comment
 a && b :=
-    a ? False -> False | True -> b bool
+    a   ? False |= a
+        | True  |= b bool
+
+// ternary of 2 binaries, usage together: (someCondition ⊤ trueExpr ⊥ falseExpr)
+when ⊤ then :=
+    when    ? True  |= then ever
+            | False |= it
+fn ⊥ else := else fn
+
 
 b if Then yay Else nay :=
-    b ? True -> yay | False -> nay
+    b   ? True  |= yay
+        | False |= nay
 
 
 /*
