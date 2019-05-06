@@ -10,7 +10,7 @@ moo sup :=
 
 a yoo b c d :=
     yo * ab, x := oy
-    yo := a+b, ya "ok" ab := c+d , yo moo := y // error
+    yo := a+b, ab := c+d
 
 case :=
     yoo ? sup               -> test
