@@ -1,7 +1,6 @@
 
 bool    := True, False
 
-
 True    not := False
 False   not := True
 
