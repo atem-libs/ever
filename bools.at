@@ -1,15 +1,21 @@
 
 bool    := True, False
 
+
 True    not := False
 False   not := True
 
-/*   another test comment  */
+
+True    == True     := True
+False   == False    := True
+_       == _        := False
+
+
 a || b :=
     a   ? True  |= a
         | False |= b bool
 
-//    test comment
+
 a && b :=
     a   ? False |= a
         | True  |= b bool
@@ -24,6 +30,7 @@ fn ⊥ else :=
 // naked-aliases for ease of typing (fmt could replace with pretty symbol)
 |- := ⊤
 -| := ⊥
+
 
 // alternative way to ternary with tag-typed pseudo-args
 b if Then yay Else nay :=
