@@ -1,4 +1,7 @@
 
+mustVal § checkVal :=
+    checkVal ? mustVal |= checkVal
+
 // id , the well-known:     \a.a        ===  func id(foo) {return foo}
 foo it := foo
 

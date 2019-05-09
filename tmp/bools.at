@@ -6,11 +6,6 @@ True    not := False
 False   not := True
 
 
-True    == True     := True
-False   == False    := True
-_       == _        := False
-
-
 a || b :=
     a   ? True  |= a
         | False |= b bool
@@ -33,7 +28,7 @@ fn ⊥ else :=
 
 
 // alternative way to ternary with tag-typed pseudo-args
-b if Then yay Else nay :=
+b if _:(Then,) yay Else nay :=
     b   ? True  |= yay
         | False |= nay
 
