@@ -1,0 +1,4 @@
+
+foo true _ := foo
+
+_ false foo := food
