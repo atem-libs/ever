@@ -1,4 +1,12 @@
 
 foo true _ := foo
 
-_ false foo := food
+_ false foo := fooya
+
+b1 and b2 := b2 b1 false
+
+b1 or b2 := true b1 b2
+
+b not := false b true
+
+b if then else := then b else
