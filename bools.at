@@ -1,12 +1,12 @@
 
-foo true _ := foo
-
+foo true _  := foo
 _ false foo := fooya
+b1 && b2    := b2 b1 false
+b1 || b2    := true b1 b2
+b !         := false b true
 
-b1 && b2 := b2 b1 false
+b if then else :=
+    then b else
 
-b1 || b2 := true b1 b2
-
-b ! := false b true
-
-b ?: then else := then b else
+b when Then then Else else :=
+    b if then else
