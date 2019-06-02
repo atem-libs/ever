@@ -1,0 +1,4 @@
+
+foo it := foo
+
+foo ever _ := foo
