@@ -3,7 +3,7 @@ foo true _  := foo
 _ false foo := fooya
 b1 && b2    := b2 b1 false
 b1 || b2    := true b1 b2
-b !         := false b true
+b ~         := false b true
 
 b if then else :=
     then b else
@@ -11,4 +11,4 @@ b if then else :=
 b if Then then else else :=
     b if then else
 
-yo:ya ok := 321
+yo ok 123 := 321
