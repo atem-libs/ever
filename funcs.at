@@ -1,4 +1,9 @@
 
-foo it := foo
+x it := x
 
-foo ever _ := foo
+ever := true
+
+should § is :=
+    is ? should => is
+
+x == y := _
