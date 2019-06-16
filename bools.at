@@ -5,8 +5,8 @@ b1 && b2    := b2 b1 false
 b1 || b2    := true b1 b2
 b ~         := false b true
 
-b if Then then else else :=
-    b if then else
+// b if Then then else else :=
+//     b if then else
 
 b if then else :=
     then b else
