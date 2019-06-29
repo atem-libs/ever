@@ -3,14 +3,11 @@ x true y    := x
 x false y   := y
 b1 && b2    := b2 b1 false
 b1 || b2    := true b1 b2
-b ~         := false b true
+b not         := false b true
 
 
-b if Then then else :=
-    b if then els
+x if b `else` y := x b y
 
-b if then else :=
-    then b else
-
+x unless b `then` y := x (b not) y
 
 yo ok Ya := 321
