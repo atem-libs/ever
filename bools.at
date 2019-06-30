@@ -1,15 +1,17 @@
 
 x true y    := x
 x false y   := y
-b1 && b2    := b2 b1 false
-b1 || b2    := true b1 b2
-b not         := false b true
+b1 and b2   := b2 b1 false
+b1 or b2    := true b1 b2
+b not       := false b true
 
-
-x if b `else y :=
+b ?| x y :=
     x b y
 
-x unless b `then y :=
-    x (b not) y
+x if b Else y :=
+    x b y
 
-yo ok Ya := 321
+x unless b Then y :=
+    x b.not y
+
+yo ok Ya:=321

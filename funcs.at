@@ -6,4 +6,6 @@ ever := true
 should § is :=
     is ? should => is
 
+arg . fun := arg fun
+
 x == y := _
