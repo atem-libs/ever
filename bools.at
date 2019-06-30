@@ -6,8 +6,10 @@ b1 || b2    := true b1 b2
 b not         := false b true
 
 
-x if b `else` y := x b y
+x if b `else y :=
+    x b y
 
-x unless b `then` y := x (b not) y
+x unless b `then y :=
+    x (b not) y
 
 yo ok Ya := 321
