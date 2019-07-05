@@ -6,6 +6,12 @@ ever := true
 should § is :=
     is ? should => is
 
+fun : arg := arg fun
+
 arg . fun := arg fun
+
+fn2 <. fn1 arg := (arg fn1) fn2
+
+fn1 .> fn2 arg := (arg fn1) fn2
 
 x == y := _
