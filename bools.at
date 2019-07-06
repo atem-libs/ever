@@ -5,6 +5,7 @@ b1 and b2   := b2 b1 false
 b1 or b2    := true b1 b2
 b not       := false b true
 
+// TODO: this is designed for generated/desugared code --- it should go direct without `?|`
 b ?| x y :=
     x b y
 
@@ -12,6 +13,6 @@ x if b Else y :=
     x b y
 
 x unless b Then y :=
-    x b.not y
+    y b x
 
 yo ok Ya:=321
