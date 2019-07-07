@@ -3,15 +3,17 @@ x it := x
 
 ever := true
 
-should § is :=
-    is ? should => is
-
 fun : arg := arg fun
 
 arg . fun := arg fun
 
-fn2 <. fn1 arg := (arg fn1) fn2
+// read as 'of': "hello world" toUpper</trim
+fn2 </ fn1 arg := (arg fn1) fn2
 
-fn1 .> fn2 arg := (arg fn1) fn2
+// read as 'andThen': "hello world" trim/>toUpper
+fn1 /> fn2 arg := (arg fn1) fn2
 
 x == y := _
+
+want § have :=
+    have ? want => have

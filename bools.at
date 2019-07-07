@@ -10,5 +10,3 @@ x if b Else y :=
 
 x unless b Then y :=
     y b x
-
-yo ok Ya:=321
