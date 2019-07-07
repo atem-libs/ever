@@ -7,10 +7,10 @@ fun : arg := arg fun
 
 arg . fun := arg fun
 
-// read as 'of': "hello world" toUpper</trim
+// read as 'of' --- "hello world" toUpper</trim
 fn2 </ fn1 arg := (arg fn1) fn2
 
-// read as 'andThen': "hello world" trim/>toUpper
+// read as 'andThen' --- "hello world" trim/>toUpper
 fn1 /> fn2 arg := (arg fn1) fn2
 
 x == y := _
