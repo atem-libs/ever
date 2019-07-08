@@ -1,19 +1,28 @@
 
-x it := x
+// identity
+arg it :=
+    arg
 
-ever := true
+// konst
+ever :=
+    true
 
-fun : arg := arg fun
+fn : arg :=
+    arg fn
 
-arg . fun := arg fun
+arg . fn :=
+    arg fn
 
-// read as 'of' --- "hello world" toUpper</trim
-fn2 </ fn1 arg := (arg fn1) fn2
+// compose, read as 'of' --- "hello world" toUpper</trim
+fn2 </ fn1 arg :=
+    (arg fn1) fn2
 
-// read as 'andThen' --- "hello world" trim/>toUpper
-fn1 /> fn2 arg := (arg fn1) fn2
+// compose, read as 'andThen' --- "hello world" trim/>toUpper
+fn1 /> fn2 arg :=
+    (arg fn1) fn2
 
-x == y := _
+arg1 == arg2 :=
+    _
 
 want § have :=
     have ? want => have
