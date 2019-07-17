@@ -7,8 +7,6 @@ arg it :=
 ever :=
     true
 
-tmp123 := 321
-
 fn : arg :=
     arg fn
 
