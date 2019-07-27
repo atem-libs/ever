@@ -5,11 +5,14 @@ bdis and bdat   := bdat bdis false
 bdis or bdat    := true bdis bdat
 boolish not     := false boolish true
 
-_els := Else
-_thn := Then
 
-dis if boolish Else dat :=
+else := _
+then := _
+
+
+dis if boolish _else dat    :=
     dis boolish dat
 
-dis unless boolish Then dat :=
+
+dis unless boolish _then dat :=
     dat boolish dis
