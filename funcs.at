@@ -1,27 +1,31 @@
 
 // identity
-arg it :=
-    arg
+dis self :=
+    dis
 
-// konst
-ever :=
-    true
+// konst (equiv to `true`)
+dis ever _ :=
+    dis
 
-fn : arg :=
-    arg fn
+dis . fn :=
+    dis fn
 
-arg . fn :=
-    arg fn
+fn : dis :=
+    dis fn
+
+// flip:
+fn <> dis dat :=
+    dis (dat fn)
 
 // compose, read as 'of' --- "hello world" toUpper</trim
-fn2 </ fn1 arg :=
-    (arg fn1) fn2
+fn2 </ fn1 dis :=
+    (dis fn1) fn2
 
 // compose, read as 'andThen' --- "hello world" trim/>toUpper
-fn1 /> fn2 arg :=
-    (arg fn1) fn2
+fn1 /> fn2 dis :=
+    (dis fn1) fn2
 
-arg1 == arg2 :=
+dis == dat :=
     _
 
 want § have :=

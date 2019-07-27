@@ -1,12 +1,15 @@
 
-x true y    := x
-x false y   := y
-b1 and b2   := b2 b1 false
-b1 or b2    := true b1 b2
-b not       := false b true
+dis true dat    := dis
+dis false dat   := dat
+bdis and bdat   := bdat bdis false
+bdis or bdat    := true bdis bdat
+boolish not     := false boolish true
 
-x if b Else y :=
-    x b y
+_els := Else
+_thn := Then
 
-x unless b Then y :=
-    y b x
+dis if boolish Else dat :=
+    dis boolish dat
+
+dis unless boolish Then dat :=
+    dat boolish dis
