@@ -1,18 +1,18 @@
 
-dis true dat    := dis
-dis false dat   := dat
-bdis and bdat   := bdat bdis false
-bdis or bdat    := true bdis bdat
+this true that  := this
+this false that := that
+bThis and bThat := bThat bThis false
+bThis or bThat  := true bThis bThat
 boolish not     := false boolish true
 
 
+// "keywords" -- used in func sigs as demo'd below
 else := _
 then := _
 
 
-dis if boolish _else dat    :=
-    dis boolish dat
+this if what _else that :=
+    this what that
 
-
-dis unless boolish _then dat :=
-    dat boolish dis
+this unless what _then that :=
+    that what this
