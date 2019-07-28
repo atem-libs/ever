@@ -16,4 +16,3 @@ this if boolish _else that :=
 
 this unless boolish _then that :=
     that boolish this
-
