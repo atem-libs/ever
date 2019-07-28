@@ -7,20 +7,20 @@ this self :=
 this ever that :=
     this
 
-this . fn :=
-    this fn
+any . anyFunc :=
+    any anyFunc
 
 // flip:
-fn <> this that :=
-    this (that fn)
-
-// compose, read as 'of' --- "hello world" toUpper</trim
-fn2 </ fn1 this :=
-    (this fn1) fn2
+anyFunc <> this that :=
+    this that.anyFunc
 
 // compose, read as 'andThen' --- "hello world" trim/>toUpper
-fn1 /> fn2 this :=
-    (this fn1) fn2
+former /> latter any :=
+    any.former latter
+
+// compose, read as 'of' --- "hello world" toUpper</trim
+latter </ former any :=
+    any.former latter
 
 this == that :=
     _

@@ -11,8 +11,9 @@ else := _
 then := _
 
 
-this if what _else that :=
-    this what that
+this if boolish _else that :=
+    this boolish that
 
-this unless what _then that :=
-    that what this
+this unless boolish _then that :=
+    that boolish this
+
