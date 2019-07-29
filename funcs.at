@@ -1,7 +1,7 @@
 
 // identity
-this self :=
-    this
+someValue self :=
+    someValue
 
 // konst (equiv to `true`)
 this ever that :=

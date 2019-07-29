@@ -14,7 +14,5 @@ then := _
 this if boolish _else that :=
     this boolish that
 
-_3if := 1
-
 this unless boolish _then that :=
     that boolish this
