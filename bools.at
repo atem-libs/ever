@@ -3,7 +3,7 @@ tthis true tthat  := tthis
 fthis false fthat := fthat
 baThis and baThat := false (baThat baThis)
 boThis or boThat  := boThat (true boThis)
-boolish not     := true (false boolish)
+nboolish not     := true (false nboolish)
 
 
 // "keywords" -- used in func sigs as demo'd below
@@ -11,8 +11,8 @@ else := _
 then := _
 
 
-this if boolish _else that :=
-    this boolish that
+ithis if iboolish _else ithat :=
+    ithis iboolish ithat
 
-this unless boolish _then that :=
-    that boolish this
+uthis unless uboolish _then uthat :=
+    uthat uboolish uthis
