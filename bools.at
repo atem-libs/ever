@@ -1,8 +1,8 @@
 
-this true that  := this
-this false that := that
-bThis and bThat := bThat bThis false
-bThis or bThat  := true bThis bThat
+tthis true tthat  := tthis
+fthis false fthat := fthat
+baThis and baThat := baThat baThis false
+boThis or boThat  := true boThis boThat
 boolish not     := false boolish true
 
 
