@@ -1,9 +1,9 @@
 
 tthis true tthat  := tthis
 fthis false fthat := fthat
-baThis and baThat := baThat baThis false
-boThis or boThat  := true boThis boThat
-boolish not     := false boolish true
+baThis and baThat := false (baThat baThis)
+boThis or boThat  := boThat (true boThis)
+boolish not     := true (false boolish)
 
 
 // "keywords" -- used in func sigs as demo'd below
