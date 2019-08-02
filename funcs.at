@@ -4,15 +4,15 @@ someValue self :=
     someValue
 
 // konst (equiv to `true`)
-this ever that :=
-    this
+useValue ever discardValue :=
+    useValue
 
 any . anyFunc :=
     any anyFunc
 
 // flip:
-anyFunc <> this that :=
-    this that.anyFunc
+anyFunc <> anyFormer anyLatter :=
+    anyFormer anyLatter.anyFunc
 
 // compose, read as 'andThen' --- "hello world" trim/>toUpper
 former /> latter any :=
