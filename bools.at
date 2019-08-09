@@ -12,7 +12,7 @@ then := _
 
 
 this if boolish _else that :=
-    this boolish 321 that
+    this boolish that
 
-this unless boolish _then that 321 :=
+this unless boolish _then that :=
     that boolish this
