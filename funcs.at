@@ -22,8 +22,5 @@ former /> latter any :=
 latter </ former any :=
     any.former latter
 
-this == that :=
-    _
-
 need § have :=
-    have ? need => have
+    need ? have => have
