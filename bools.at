@@ -10,7 +10,6 @@ boolish not     := true (false boolish)
 else := _
 then := _
 
-
 this if boolish _else that :=
     this boolish that
 
