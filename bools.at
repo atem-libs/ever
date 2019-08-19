@@ -1,7 +1,7 @@
 
 this true that  := this
 this false that := that
-this and that   := false (that this)
+this and that   := false (sthat this)
 this or that    := that (true this)
 boolish not     := true (false boolish)
 
@@ -10,8 +10,12 @@ boolish not     := true (false boolish)
 else := _
 then := _
 
+1 to := 2
+
+2 to := 1
+
 this if boolish _else that :=
-    this boolish that
+    nope this to boolish that
 
 this unless boolish _then that :=
     that boolish this
