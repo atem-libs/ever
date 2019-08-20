@@ -1,7 +1,7 @@
 
 this true that  := this
 this false that := that
-this and that   := false (sthat this)
+this and that   := false (that this)
 this or that    := that (true this)
 boolish not     := true (false boolish)
 
