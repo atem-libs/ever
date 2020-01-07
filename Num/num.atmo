@@ -1,0 +1,9 @@
+
+_n pow _e :=
+  1 if _n == 0 else _n * (_n pow _e-1)
+
+_n fac :=
+  1 if _n == 0 else _n * (_n-1 fac)
+
+_n fib :=
+  _n if _n < 2 else (_n-1 fib) + (_n-2 fib)

@@ -1,0 +1,24 @@
+
+bool := True | False
+
+
+
+_then if _test else _else :=
+    _test ? True => _then | False => _else
+
+_else unless _test then _then :=
+    _test ? True => _then | False => _else
+
+
+
+_a or _b, bool :=
+    True if _a else _b
+
+_a and _b, bool :=
+    _b if _a else False
+
+_a xor _b :=
+    (not _b) if _a else _b
+
+not _a :=
+    False if _a else True
