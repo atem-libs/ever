@@ -1,0 +1,3 @@
+
+tokensFrom _bytes :=
+    _bytes none ? [] |

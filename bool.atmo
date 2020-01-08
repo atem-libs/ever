@@ -4,10 +4,10 @@ bool := True | False
 
 
 _then if _test else _else :=
-    _test ? True => _then | False => _else
+    _test ? _then | _else
 
 _else unless _test then _then :=
-    _test ? True => _then | False => _else
+    _test ? _then | _else
 
 
 

@@ -1,0 +1,14 @@
+
+parseUnsigned _text :=
+    (digit * (10.pow _text.len-1)) + rest
+
+    digit := char in '0'..'9' ? char - '0'
+        char := _text[0]
+    rest := _text.len == 1 ? 0 | parseUnsigned _text[1..]
+
+
+
+parseSigned _text :=
+    _text[0] ? '+' => parseSigned _text[1..]
+             | '-' => neg (parseSigned _text[1..])
+             |     => parseUnsigned _text
