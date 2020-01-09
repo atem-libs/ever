@@ -1,14 +1,21 @@
 
-parseUnsigned _text :=
-    (digit * (10.pow _text.len-1)) + rest
 
-    digit := char in '0'..'9' ? char - '0'
-        char := _text[0]
-    rest := _text.len == 1 ? 0 | parseUnsigned _text[1..]
-
+_num toString :=
+    _num < 10   ? _num.char.toString
+                | (_num % 10).char.toString + (_num / 10).toString
+    _n char := _n in 0..9 ? Char (_n + '0'.code)
 
 
-parseSigned _text :=
-    _text[0] ? '+' => parseSigned _text[1..]
-             | '-' => neg (parseSigned _text[1..])
-             |     => parseUnsigned _text
+
+_str parseSigned :=
+    _str[0] ? '+' => _str[1..] parseSigned
+            | '-' => _str[1..].parseSigned neg
+            |     => _str.parseUnsigned
+
+
+
+_str parseUnsigned :=
+    (digit * (10.pow _str.length-1)) + rest
+
+    digit := _str[0] in '0'..'9' ? Char (_str[0].code - '0'.code)
+    rest := _str.length == 1 ? 0 | _str[1..].parseUnsigned

@@ -12,13 +12,13 @@ _else unless _test then _then :=
 
 
 _a or _b, bool :=
-    True if _a else _b
+    _a ? True | _b
 
 _a and _b, bool :=
-    _b if _a else False
+    _a ? _b | False
 
 _a xor _b :=
-    (not _b) if _a else _b
+    _a ? not _b | _b
 
 not _a :=
-    False if _a else True
+    _a ? False | True
