@@ -3,7 +3,7 @@
 _num toString :=
     _num < 10   ? _num.char.toString
                 | (_num % 10).char.toString + (_num / 10).toString
-    _n char := _n in 0..9 ? Char (_n + '0'.code)
+    _n char := _n in 0...9 ? Char (_n + '0'.code)
 
 
 
@@ -17,5 +17,5 @@ _str parseSigned :=
 _str parseUnsigned :=
     (digit * (10.pow _str.length-1)) + rest
 
-    digit := _str[0] in '0'..'9' ? Char (_str[0].code - '0'.code)
+    digit := _str[0] in '0'...'9' ? Char (_str[0].code - '0'.code)
     rest := _str.length == 1 ? 0 | _str[1..].parseUnsigned
