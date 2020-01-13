@@ -2,3 +2,17 @@
 _it self := _it
 
 ever _it _ := _it
+
+
+/*
+
+note from Idris, https://flowing.systems/2020/01/13/a-game-in-a-pure-language-part-1-introduction-and-problems-with-idris.html
+
+||| [1, 2, 3] ++ [4, 5] = [1, 2, 3, 4, 5]
+
+(++) : (xs : Vect m a) -> (ys : Vect n a) -> Vect (m + n) a
+
+(++) []      ys = ys
+(++) (x::xs) ys = x :: xs ++ ys
+
+*/
